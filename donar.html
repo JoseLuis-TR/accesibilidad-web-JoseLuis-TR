@@ -42,9 +42,10 @@
     </header>
 
     <main class="container-fluid">
+        <h1>Donaciones</h1>
         <section class="donar-cabecera">
             <div class="container">
-                <h1>Donación en línea</h1>
+                <h2>Donación en línea</h2>
             </div>
         </section>
 
@@ -98,57 +99,57 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label>Otra cantidad</label>
-                            <input type="password" class="form-control" placeholder="Escriba otro importe">
+                            <label for="Otra cantidad">Otra cantidad</label>
+                            <input name="Otra cantidad" id="Otra cantidad" type="password" class="form-control" placeholder="Escriba otro importe">
                         </div>
                         <hr>
                         <h3>Datos de facturación</h3>
                         <div class="form-group">
-                            <label>Email</label>
-                            <input type="email" class="form-control" placeholder="Escribe tu email">
+                            <label for="Email">Email</label>
+                            <input name="Email" id="Email" type="email" class="form-control" placeholder="Escribe tu email">
                             <small class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie.</small>
                         </div>
                         <div class="form-group">
-                            <label>Nombre </label>
-                            <input type="text" class="form-control" placeholder="Escribe tu nombre ">
+                            <label for="Nombre" >Nombre </label>
+                            <input name="Nombre" id="Nombre" type="text" class="form-control" placeholder="Escribe tu nombre ">
                         </div>
                         <div class="form-group">
-                            <label>Apellidos </label>
-                            <input type="text" class="form-control" placeholder="Tu apellidos">
+                            <label for="Apellidos">Apellidos </label>
+                            <input name="Apellidos" id="Apellidos" type="text" class="form-control" placeholder="Tu apellidos">
                         </div>
 
                         <div class="form-group">
-                            <label>Dirección postal </label>
-                            <input type="text" class="form-control" placeholder="Tu dirección postal">
+                            <label for="CP">Dirección postal </label>
+                            <input name="CP" id="CP" type="text" class="form-control" placeholder="Tu dirección postal">
                             <small class="form-text text-muted">Nunca compartiremos su dirección con nadie.</small>
                         </div>
 
                         <div class="form-group">
-                            <label>Teléfono </label>
-                            <input type="tel" class="form-control" placeholder="Teléfono">
+                            <label for="Telefono" >Teléfono </label>
+                            <input name="Telefono" id="Telefono" type="tel" class="form-control" placeholder="Teléfono">
                             <small class="form-text text-muted">Nunca compartiremos su teléfono con nadie más.</small>
                         </div>
                         <hr>
                         <h3>Datos de pago</h3>
                         <div class="form-group">
-                            <label>Número tarjeta</label>
-                            <input type="number" class="form-control" placeholder="Número de tarjeta">
+                            <label for="Numero de tarjeta">Número tarjeta</label>
+                            <input name="Numero de tarjeta" id="Numero de tarjeta" type="number" class="form-control" placeholder="Número de tarjeta">
                         </div>
                         <div class="form-group">
-                            <label>Data de expiración</label>
-                            <input type="text" class="form-control" placeholder="MM/AA">
+                            <label for="Expiracion">Data de expiración</label>
+                            <input name="Expiracion" id="Expiracion" type="text" class="form-control" placeholder="MM/AA">
                         </div>
                         <div class="form-group">
-                            <label>Código de verificación</label>
-                            <input type="number" class="form-control" placeholder="CCV">
+                            <label for="Codigo verificacion">Código de verificación</label>
+                            <input name="Codigo verificacion" id="Codigo verificacion" type="number" class="form-control" placeholder="CCV">
                         </div>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input">
-                            <label class="custom-control-label">Hago este donativo de manera anónima</label>
+                            <input name="anonimo" id="anonimo" type="checkbox" class="custom-control-input">
+                            <label for="anonimo" class="custom-control-label">Hago este donativo de manera anónima</label>
                         </div>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input">
-                            <label class="custom-control-label">Acepto expresamente la <a href="#">política de protección de datos </a></label>
+                            <input name="proteccion de datos" id="proteccion de datos" type="checkbox" class="custom-control-input">
+                            <label for="proteccion de datos" class="custom-control-label">Acepto expresamente la <a href="#">política de protección de datos </a></label>
                         </div>
                         <button type="submit" class="btn btn-secondary">Enviar</button>
                     </form>
