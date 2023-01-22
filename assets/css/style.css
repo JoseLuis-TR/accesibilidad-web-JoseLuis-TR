@@ -257,7 +257,7 @@ footer.container-fluid{
 .creditos{
     background: #5A6268;
     margin-top: 30px;
-    font-size: 0.65rem;
+    font-size: 0.95rem;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -267,7 +267,7 @@ footer.container-fluid{
     margin: 0 auto;
 }
 .creditos a{
-    color: #48C9B0 ;
+    color: #E8F8F5 ;
 }
 .creditos a:hover{
     color: #007bff ;
@@ -279,6 +279,15 @@ footer.container-fluid{
 .blockquote-footer{
     padding-top: 0px;
     background: transparent;
+}
+
+.escondido{
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
 }
 /* RESPONSIVE */
 @media (max-width: 980px) {
