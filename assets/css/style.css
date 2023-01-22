@@ -186,11 +186,12 @@ main{
 .donar-cabecera h1,
 .detalle-cabecera  h1{
     color: #fff;
-    background: #48C9B0;
+    background: #1D6357;
 }
 
 .detalle-cabecera  h2, .detalle-cabecera span{
     color: #fff;
+    background: #1D6357;
     width: 100%;
 }
 .detalle-cabecera button{
