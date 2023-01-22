@@ -74,18 +74,21 @@
                     <form>
                         <h3>Cantidad del donativo (EUR)</h3>
 
-                        <div class="form-check-inline">
-                            <input class="form-check-input" type="radio" name="unaVez" id="unaVez" value="option1" checked>
-                            <label class="form-check-label" for="unaVez">
-                                Una única vez
-                            </label>
-                        </div>
-                        <div class="form-check-inline">
-                            <input class="form-check-input" type="radio" name="mensual" id="mensual" value="option2">
-                            <label class="form-check-label" for="mensual">
-                                Mensual
-                            </label>
-                        </div>
+                        <fieldset>
+                            <legend>Elige una opción de frecuencia</legend>
+                            <div class="form-check-inline">
+                                <input class="form-check-input" type="radio" name="unaVez" id="unaVez" value="option1" checked>
+                                <label class="form-check-label" for="unaVez">
+                                    Una única vez
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <input class="form-check-input" type="radio" name="mensual" id="mensual" value="option2">
+                                <label class="form-check-label" for="mensual">
+                                    Mensual
+                                </label>
+                            </div>
+                        </fieldset>
                         <div class="form-group">
                             <label for="exampleFormControlSelect2">Importe</label>
                             <select multiple class="form-control" id="exampleFormControlSelect2">
